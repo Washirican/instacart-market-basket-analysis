@@ -16,3 +16,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Run with this: spark-submit \
+    # 		     --packages org.apache.hadoop:hadoop-aws:3.3.4,com.amazonaws:aws-java-sdk-bundle:1.12.262 \
+    #                s3_test.py
